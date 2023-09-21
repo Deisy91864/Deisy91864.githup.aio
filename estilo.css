@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+    background-color: #fffcfc;
+}
+
+header {
+    background-color: #cc29f0;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav {
+    background-color: #c2a0f1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color:rgb(252, 252, 254);
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.columna {
+    flex-basis: 48%;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+.seccion-portafolio {
+    margin: 20px 0;
+}
+
+
+.seccion-servicios {
+    margin: 20px 0;
+}
+
+.contacto {
+    background-color: #c2a0f1;
+    color: #f8f6f6;
+    text-align: center;
+    padding: 1px 0;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 10px; /* Espaciado interno del footer */
+    text-align: center; /* Alineación del texto en el centro */
+  }
+  
